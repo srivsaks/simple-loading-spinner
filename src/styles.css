@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.loader {
+  border: 16px solid rgb(246, 246, 250);
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+  border-top: 16px solid rgb(133, 220, 241);
+  animation: spin 800ms linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
